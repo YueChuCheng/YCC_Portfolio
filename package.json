@@ -1,0 +1,17 @@
+{
+  "name": "YCC_Portfolio",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "dev": "slidev --open",
+    "export": "slidev export",
+    "build": "slidev build ./slides.md -d --base /YCC_Portfolio/"
+  },
+  "dependencies": {
+    "@slidev/cli": "^0.48.1",
+    "@slidev/theme-default": "latest",
+    "@slidev/theme-seriph": "latest",
+    "vue": "^3.4.21",
+    "playwright-chromium": "^1.21.1"
+  }
+}
